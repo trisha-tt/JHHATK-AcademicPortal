@@ -1,5 +1,6 @@
 Team Name: JHHATK-AcademicPortal
 Members: Joshna Prasanna Raghavan, Hannah Garcia, Harish Sridharan, Akalya Sridharan, Trisha Teredesai, Khushi Panchal
+
 Topic:
 Our topic is similar to Topic 5: Patient-Doctor Portal, though slightly changed to be used in an academic setting. 
 Our project, "Academic Portal," will help students connect with WSU professors and tutors online for questions or quick explanations.
