@@ -1,4 +1,5 @@
 Team Name: JHHATK-AcademicPortal
+
 Members: Joshna Prasanna Raghavan, Hannah Garcia, Harish Sridharan, Akalya Sridharan, Trisha Teredesai, Khushi Panchal
 
 Topic:
