@@ -15,3 +15,29 @@ class Admin
     void viewReports();
 
 };
+
+
+
+void login()
+{
+
+
+
+}
+
+
+void addTutor()
+{
+
+
+
+}
+
+
+void viewReports()
+{
+
+
+
+    
+}
