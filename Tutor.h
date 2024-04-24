@@ -14,3 +14,20 @@ class Tutor
     void viewRequest();
 
 };
+
+
+void login()
+// user can login as tutor in order to have permissions to do the functions below 
+{
+
+
+}
+
+
+void veiwRequest()
+// tutor can view request interface
+// calls functions from class Request to allow the tutor to perform necessary actions
+{
+
+
+}

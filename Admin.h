@@ -17,8 +17,8 @@ class Admin
 };
 
 
-
 void login()
+// user can login as admin in order to have permissions to do the functions below (that TAs/students can’t do)
 {
 
 
@@ -27,6 +27,7 @@ void login()
 
 
 void addTutor()
+// admin can add a new tutor to the login database/system
 {
 
 
@@ -34,10 +35,13 @@ void addTutor()
 }
 
 
+
 void viewReports()
+// displays all of the reports generated/requested by the admin, showing statistics/information on student queries (information depending on the report type)
+// uses functions from class Report
 {
 
 
 
-    
+
 }
