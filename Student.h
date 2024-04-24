@@ -12,5 +12,16 @@ class Student
     public:
     Request makeRequest();
 
+    Student(){
+        this->name = "";
+        this->IDnumber = 0;
+
+    }
+
+    Student(std::string userName, int userID){
+        this->IDnumber = userID;
+        this->name = userName;
+    }
+
 };
 
