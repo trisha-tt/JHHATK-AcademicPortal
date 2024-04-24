@@ -13,6 +13,19 @@ class Tutor
     void login();
     void viewRequest();
 
+    Tutor()
+    {
+        LoginDatabase temp;
+        this->name = "";
+        this->email = temp;
+    }
+
+    Tutor(std::string taName, LoginDatabase taEmail)
+    {
+        this->name = taName;
+        this-> email = taEmail;
+    }
+
 };
 
 
