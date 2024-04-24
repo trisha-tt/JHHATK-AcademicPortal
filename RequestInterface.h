@@ -14,7 +14,7 @@ public:
 };
 
 
-bool acceptFlags() 
+bool RequestInterface::acceptFlags() 
 //allows the TA to assign the request to themselves & indicate that they will help the student
 {
 
@@ -23,7 +23,7 @@ bool acceptFlags()
 }
 
 
-bool deleteFlags()
+bool RequestInterface::deleteFlags()
 //allows the TA to delete any requests that are unneeded
 {
 
@@ -32,7 +32,7 @@ bool deleteFlags()
 }
 
 
-bool flagComplete()
+bool RequestInterface::flagComplete()
 // allows the TA to mark a request as done
 {
 

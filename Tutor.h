@@ -16,7 +16,7 @@ class Tutor
 };
 
 
-void login()
+void Tutor::login()
 // user can login as tutor in order to have permissions to do the functions below 
 {
 
@@ -24,7 +24,7 @@ void login()
 }
 
 
-void veiwRequest()
+void Tutor::viewRequest()
 // tutor can view request interface
 // calls functions from class Request to allow the tutor to perform necessary actions
 {

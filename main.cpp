@@ -2,8 +2,9 @@
 
 int main()
 {
-    //test
-    //Test2
+    Homepage MLC;
+
+    MLC.startApp();
 
     
     return 0;
