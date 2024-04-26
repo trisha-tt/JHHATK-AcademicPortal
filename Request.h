@@ -14,6 +14,7 @@ public:
         this->RequestInfo = "";
         this->prefferedTA = "";
     }
+    
     Request(Student studentInfo, int tableNum, std::string CourseInfo, std::string RequestInfo, std::string prefferedTA)
     {
         this->studentInfo = studentInfo;
