@@ -34,8 +34,6 @@ void Admin::addTutor()
 
 }
 
-
-
 void Admin::viewReports()
 // displays all of the reports generated/requested by the admin, showing statistics/information on student queries (information depending on the report type)
 // uses functions from class Report

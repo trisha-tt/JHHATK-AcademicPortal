@@ -10,17 +10,17 @@ Request Student::makeRequest()
     std::string request = "";
     std::string preffered = "";
 
-    std::cout << "Enter your name: " << std::endl;
+    //std::cout << "Enter your name: " << std::endl;
     std::cin >> info.name;
-    std::cout << "Enter your student ID number: " << std::endl;
+    //std::cout << "Enter your student ID number: " << std::endl;
     std::cin >> info.IDnumber;
-    std::cout << "Enter the MLC table number: " << std::endl;
+    //std::cout << "Enter the MLC table number: " << std::endl;
     std::cin >> table;
-    std::cout << "Enter the course name and number: " << std::endl;
+    //std::cout << "Enter the course name and number: " << std::endl;
     std::cin >> course;
-    std::cout << "Enter any additonal info (optional): " << std::endl;
+    //std::cout << "Enter any additonal info (optional): " << std::endl;
     std::cin >> request;
-    std::cout << "Do you have a preferred Tutor? Enter the name of Tutor:" << std::endl;
+    //std::cout << "Do you have a preferred Tutor? Enter the name of Tutor:" << std::endl;
     std::cin >> preffered;
 
     std::cout << "Thank you! Your request will be sent to tutors." << std::endl;
