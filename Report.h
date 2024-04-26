@@ -19,9 +19,9 @@ int Report::getReportType()
 {
     int ans = 0;
 
-    std::cout << "select report type: " << std::endl;
-    std::cout << "1. number of students per course" << std::endl;
-    std::cout << "2. number of queries per tutor" << std::endl;
+    std::cout << "Select report type: " << std::endl;
+    std::cout << "1. Number of students per course" << std::endl;
+    std::cout << "2. Number of queries per tutor" << std::endl;
     std::cout << "--->" << std::endl;
     std::cin >> ans;
 

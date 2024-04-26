@@ -5,23 +5,22 @@
 
 class Student
 {
-    private:
+private:
     std::string name;
     int IDnumber;
 
-    public:
+public:
     Request makeRequest();
 
-    Student(){
+    Student()
+    {
         this->name = "";
         this->IDnumber = 0;
-
     }
 
-    Student(std::string userName, int userID){
+    Student(std::string userName, int userID)
+    {
         this->IDnumber = userID;
         this->name = userName;
     }
-
 };
-
