@@ -33,7 +33,7 @@ bool RequestInterface::flagComplete()
 {
     // Allows the Tutor to mark the request as completed after assisting the student
     // If there is any incomplete information in the request, the Tutor will be able to fill the necessary details
-    // The Tutor must also include a resolution message, describing how the issue was solved
+    // The Tutor must also include a resolution message, describing how the student's issue was solved
 }
 
 int RequestInterface::countRequests()
