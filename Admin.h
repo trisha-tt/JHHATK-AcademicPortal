@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include "LoginDatabase.h"
+#include "Report.h"
 
 class Admin
 {
@@ -35,5 +36,21 @@ void Admin::viewReports()
 {
     // Use function getReportType to receive the input from user (Admin) on desired report type
     // According to their input, the appropriate function is called to generate the desired report
+    int ans = 0;
+    Report rep;
+
+    ans = rep.getReportType();
+    if (ans == 1)
+    {
+        rep.generateReportType1();
+    }
+    else if (ans == 2)
+    {
+        rep.generateReportType2();
+    }
+    else
+    {
+        return;
+    }
 }
 
