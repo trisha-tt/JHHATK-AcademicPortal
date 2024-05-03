@@ -40,4 +40,29 @@ int RequestInterface::countRequests()
 // counts the number of completed requests
 //  used by class Reports when creating reports
 {
+    //reads the reportType1, and tally all the request made from all courses
+    int totalRequests = 0;
+    std::ifstream file("report_type1.csv");
+    if (file.is_open()) {
+        std::string line;
+        std::getline(file, line); // Skip the header line
+
+        while (std::getline(file, line)) {
+            std::string course;
+            int requestCount;
+
+            std::size_t commaPos = line.find(',');
+            if (commaPos != std::string::npos) {
+                course = line.substr(0, commaPos);
+                requestCount = std::stoi(line.substr(commaPos + 1));
+                totalRequests += requestCount;
+            }
+        }
+
+        file.close();
+    } else {
+        std::cout << "Unable to open file." << std::endl;
+    }
+
+    return totalRequests;
 }
