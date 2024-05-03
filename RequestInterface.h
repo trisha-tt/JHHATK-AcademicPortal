@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <fstream>
 #include "Request.h"
 #include <iostream>
 #include <fstream>
