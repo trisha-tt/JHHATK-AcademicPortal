@@ -2,7 +2,10 @@
 
 #include <iostream>
 #include "Request.h"
-
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
 class RequestInterface
 {
 public:
